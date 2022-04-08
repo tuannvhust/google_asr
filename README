@@ -1,0 +1,19 @@
+Bài 1 : Chạy trên  terminal
+python intern.py 
+
+Bài 2 : Chạy trên ternminal 
+
+1.python3 main.py  --scenario=prepare_data
+
+File common_voice.zip lưu trong folder data
+File mpe lưu ở folder : data/common_voice/mp3
+File wav lưu ở folder : data/common_voice/wav
+
+
+2.python3 main.py --scenario=speech_recognition
+
+File google_result lưu ở file : data/common_voice/google_result.txt
+
+Ngoài ra có thể  chạy package của vietai : python3 main.py --scenario=vietnamese_recognition
+
+3. python3 main.py --scenario = WER_Measurement
